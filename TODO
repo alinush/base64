@@ -1,0 +1,5 @@
+1. How do you handle newlines in encoded string?
+2. Should encodeBuffer null-terminate the string?
+	- Seems like it would be nice and useful
+3. Encoding and decoding the empty string?
+4. Decoding a file: should the file always have the same number of base64 characters in every line? Can we create security bugs if we let lines have an arbitrary number of base64 characters?
